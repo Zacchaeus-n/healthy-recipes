@@ -23,3 +23,29 @@ p,
 li {
   font-family: Helvetica;
 }
+
+section.one {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.two {
+  border-top: 0.1rem solid gray;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.ingredients {
+  line-height: 2.4rem;
+}
+
+.citation {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 15px auto;
+}
